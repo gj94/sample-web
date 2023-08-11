@@ -14,7 +14,7 @@ public class DemoApplication {
 
 		@GetMapping("/")
 		public String sayhello(){
-			return "Hello";
+			return "Hello from the cloud";
 		}
 
 	}
